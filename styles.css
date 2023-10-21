@@ -1,0 +1,81 @@
+header{
+    position:fixed;
+    background: rgba(0, 0, 0, 0.80);
+    top:0px;
+}
+#list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    width:100vw;
+    padding:10px;
+}
+li{
+    list-style-type: none;
+}
+#items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-top:70px; 
+}
+#iphone{
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:auto;
+    padding-top:100px;
+    padding-bottom:20px;
+}
+#iphone h1{
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#iphone #btn{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:30px;
+}
+#btn button, #btn a{
+    margin:0 20px;
+}
+#btn button{
+    background-color: #0071E3;
+    border:none;
+    color:white;
+    border-radius:20px;
+    width:50px;
+    padding:10px;
+}
+#btn a{
+    text-decoration: none;
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+}
+#pro{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:100px 100px 0px 100px;
+    background-color:black;
+    color:white;
+}
+#blb{
+    padding-top:20px;
+}
+#pro h1{
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
